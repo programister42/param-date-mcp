@@ -1,20 +1,54 @@
 {
   "name": "param-date-mcp",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server providing comprehensive date and time functionality using date-fns library",
+  "main": "index.ts",
   "module": "index.ts",
   "type": "module",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "date",
+    "time",
+    "date-fns",
+    "datetime",
+    "formatting",
+    "ai-tools"
+  ],
+  "author": "Taras Tereschenko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programister42/param-date-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/programister42/param-date-mcp/issues"
+  },
+  "homepage": "https://github.com/programister42/param-date-mcp#readme",
+  "bin": {
+    "param-date-mcp": "./index.ts"
+  },
   "scripts": {
     "start": "bun run index.ts",
     "dev": "bun --hot index.ts"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.13.0",
     "date-fns": "^4.1.0",
-    "zod": "^3.23.8"
+    "zod": "^3.25.67"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "package.json"
+  ]
 }
