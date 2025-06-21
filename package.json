@@ -2,11 +2,11 @@
   "name": "param-date-mcp",
   "version": "1.1.2",
   "description": "A Model Context Protocol (MCP) server providing comprehensive date and time functionality using date-fns library",
-  "main": "index.ts",
-  "module": "index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "type": "module",
   "bin": {
-    "param-date-mcp": "index.ts"
+    "param-date-mcp": "dist/index.js"
   },
   "keywords": [
     "mcp",
@@ -31,7 +31,8 @@
   "scripts": {
     "start": "bun run index.ts",
     "dev": "bun --hot index.ts",
-    "build": "bun build index.ts",
+    "build": "bun build index.ts --outdir dist --target node --format esm",
+    "prepublishOnly": "bun run build",
     "test": "bunx tsc --noEmit",
     "release": "semantic-release"
   },
@@ -55,7 +56,7 @@
     "bun": ">=1.0.0"
   },
   "files": [
-    "index.ts",
+    "dist/",
     "README.md",
     "package.json"
   ]
