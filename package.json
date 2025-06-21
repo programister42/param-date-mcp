@@ -5,6 +5,9 @@
   "main": "index.ts",
   "module": "index.ts",
   "type": "module",
+  "bin": {
+    "param-date-mcp": "index.ts"
+  },
   "keywords": [
     "mcp",
     "model-context-protocol",
