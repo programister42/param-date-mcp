@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/programister42/param-date-mcp/compare/v1.1.2...v1.1.3) (2025-06-21)
+
+
+### Bug Fixes
+
+* update shebang and adjust package.json for build output ([586c63a](https://github.com/programister42/param-date-mcp/commit/586c63a55f62ff4ffeac5b31198b2b0dd712713e))
+
 ## [1.1.2](https://github.com/programister42/param-date-mcp/compare/v1.1.1...v1.1.2) (2025-06-21)
 
 
