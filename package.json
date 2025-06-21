@@ -1,6 +1,6 @@
 {
   "name": "param-date-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Model Context Protocol (MCP) server providing comprehensive date and time functionality using date-fns library",
   "main": "index.ts",
   "module": "index.ts",
