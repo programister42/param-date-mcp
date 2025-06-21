@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/programister42/param-date-mcp/compare/v1.1.1...v1.1.2) (2025-06-21)
+
+
+### Bug Fixes
+
+* add bin configuration to package.json ([e9da907](https://github.com/programister42/param-date-mcp/commit/e9da907cbeb888724e7c606b6c84f399b0117e00))
+
 ## [1.1.1](https://github.com/programister42/param-date-mcp/compare/v1.1.0...v1.1.1) (2025-06-21)
 
 
