@@ -9,6 +9,7 @@ import {
   formatDistanceStrict,
   formatISO,
 } from "date-fns";
+import packageJson from "./package.json" with { type: "json" };
 
 const wrapForMcp = (callback: () => string): CallToolResult => {
   try {
@@ -32,8 +33,8 @@ const wrapForMcp = (callback: () => string): CallToolResult => {
 };
 
 const server = new McpServer({
-  name: "param-date-mcp",
-  version: "1.0.0",
+  name: packageJson.name,
+  version: packageJson.version,
 });
 
 server.registerTool(
