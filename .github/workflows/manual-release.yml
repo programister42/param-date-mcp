@@ -41,6 +41,9 @@ jobs:
       - name: Type check
         run: bun run test
 
+      - name: Test server startup
+        run: timeout 5s bun run start || test $? = 124
+
       - name: Manual Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

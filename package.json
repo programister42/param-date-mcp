@@ -32,7 +32,7 @@
     "start": "bun run index.ts",
     "dev": "bun --hot index.ts",
     "build": "bun build index.ts",
-    "test": "bun run tsc --noEmit",
+    "test": "bunx tsc --noEmit",
     "release": "semantic-release"
   },
   "dependencies": {
@@ -48,10 +48,8 @@
     "@semantic-release/github": "^10.0.3",
     "@semantic-release/npm": "^12.0.1",
     "@semantic-release/release-notes-generator": "^13.0.0",
-    "semantic-release": "^23.0.8"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+    "semantic-release": "^23.0.8",
+    "typescript": "^5.6.3"
   },
   "engines": {
     "bun": ">=1.0.0"

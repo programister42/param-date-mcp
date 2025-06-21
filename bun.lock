@@ -18,9 +18,6 @@
         "@types/bun": "latest",
         "semantic-release": "^23.0.8",
       },
-      "peerDependencies": {
-        "typescript": "^5",
-      },
     },
   },
   "packages": {
