@@ -25,9 +25,6 @@
     "url": "https://github.com/programister42/param-date-mcp/issues"
   },
   "homepage": "https://github.com/programister42/param-date-mcp#readme",
-  "bin": {
-    "param-date-mcp": "./index.ts"
-  },
   "scripts": {
     "start": "bun run index.ts",
     "dev": "bun --hot index.ts",
